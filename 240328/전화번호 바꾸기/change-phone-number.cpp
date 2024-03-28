@@ -4,11 +4,15 @@ using namespace std;
 
 int main() {
     
-    int x, y, z;
-    char b;
+    int a, b, c;
 
-    cin >> z >> b >> x >> b >> y;
-    cout << "010" << b << y << b << x;
+    cin >> a;
+    cin.get();
+    cin >> b;
+    cin.get();
+    cin >> c;
+
+    cout << "010-" << c << '-' << b;
 
     return 0;
 }
