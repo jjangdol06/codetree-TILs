@@ -3,12 +3,15 @@ using namespace std;
 
 int main() {
     
-    int m , d, y;
-    char c;
+    int y, m, d;
 
-    cin >> m >> c >> d >> c >> y;
-    c = '.';
-    cout << y << c << m << c << d;
+    cin >> m;
+    cin.get();
+    cin >> d;
+    cin.get();
+    cin >> y;
+
+    cout << y << "." << m << "." << d;
 
     return 0;
 }
