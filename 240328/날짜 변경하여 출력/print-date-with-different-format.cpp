@@ -4,11 +4,13 @@ using namespace std;
 int main() {
     
     int y, m, d;
-    char c;
 
-    cin >> y >> c >> m >> c >> d;
-    c = '-';
-    cout << m << c << d << c << y;
+    cin >> y;
+    cin.get();
+    cin >> m;
+    cin.get();
+    cin >> d;
+    cout << m << '-' << d << '-' << y;
 
     return 0;
 }
