@@ -7,9 +7,9 @@ int main() {
 
     cin >> a;
 
-    a = a == 1 ? 't' : 'f';
+    char ans = a == 1 ? 't' : 'f';
 
-    cout << (char)a;
+    cout << ans;
 
     return 0;
 }
