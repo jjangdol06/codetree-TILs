@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
 
-    int a;
+    int n;
     
-    cin >> a;
+    cin >> n;
 
-    cout << a << endl;
+    cout << n << endl;
 
-    if(a < 0){
+    if(n < 0){
         cout << "minus";
     }
     
