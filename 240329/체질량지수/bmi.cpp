@@ -3,15 +3,16 @@ using namespace std;
 
 int main() {
 
-    int h, w, b;
+    int h, w, bmi;
 
     cin >> h >> w;
     
-    b = 10000 * w / (h * h);
+    bmi = 10000 * w / (h * h);
 
     cout << b << endl;
 
     if(b >= 25)
         cout << "Obesity";
+        
     return 0;
 }
