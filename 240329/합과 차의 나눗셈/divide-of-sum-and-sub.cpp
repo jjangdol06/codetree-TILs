@@ -3,13 +3,13 @@ using namespace std;
 
 int main() {
 
-    double a, b;
+    int a, b;
     
     cin >> a >> b;
 
     cout << fixed;
     cout.precision(2);
-    cout << (a + b) / (a - b);
+    cout << (double)(a + b) / (a - b);
 
     return 0;
 }
