@@ -9,10 +9,10 @@ int main() {
     
     bmi = 10000 * w / (h * h);
 
-    cout << b << endl;
+    cout << bmi << endl;
 
-    if(b >= 25)
+    if(bmi >= 25)
         cout << "Obesity";
-        
+
     return 0;
 }
