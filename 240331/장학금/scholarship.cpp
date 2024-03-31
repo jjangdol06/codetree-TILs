@@ -5,7 +5,7 @@ int main() {
 
     int mid_score, final_score;
 
-    cin >> mid_score, final_score;
+    cin >> mid_score >> final_score;
 
     if(mid_score < 90)
         cout << 0;
