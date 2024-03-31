@@ -19,6 +19,12 @@ int main() {
         c = temp;
     }
 
+    if(a > b){
+        temp = a;
+        a = b;
+        b = temp;
+    }
+
     cout << b;
 
     return 0;
