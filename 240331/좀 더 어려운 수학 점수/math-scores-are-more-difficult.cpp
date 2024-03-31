@@ -7,11 +7,7 @@ int main() {
 
     cin >> a_math >> a_eng >> b_math >> b_eng;
 
-    if(a_math == b_math && a_eng > b_eng)
-        cout << "A";
-    else if(a_math == b_math && a_eng < b_eng)
-        cout << "B";
-    else if(a_math > b_math)
+    if(a_math > b_math || (a_math == b_math && a_eng > b_eng))
         cout << "A";
     else
         cout << "B";
