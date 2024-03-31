@@ -8,21 +8,8 @@ int main() {
 
     for(int i = 0; i < 3; i++){
         cin >> symptom >> temp;
-        if(temp >= 37)
-        {
-            if(symptom == 'Y'){
-                cnt++;
-            }
-            // else
-                // cout << 'B';
-        }
-        
-        // else{
-        //     if(symptom == 'Y')
-        //         // cout << 'C';
-        //     else
-        //         // cout << 'D';
-        // }
+        if(temp >= 37 && symptom == 'Y')
+            cnt++;
     }
 
     ans = (cnt >= 2) ? 'E' : 'N';
