@@ -10,7 +10,7 @@ int main() {
     cin >> b_age >> b_gender;
 
     if((a_age >=19 && a_gender == 'M') 
-        || (a_age >=19 && a_gender == 'M'))
+        || (b_age >=19 && b_gender == 'M'))
         cout << 1;
     else
         cout << 0;
