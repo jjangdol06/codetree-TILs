@@ -6,12 +6,8 @@ int main() {
     int temp, cnt = 0;
     char symptom, ans;
 
-    cin >> symptom >> temp;
-    cin >> symptom >> temp;
-    cin >> symptom >> temp;
-
-
     for(int i = 0; i < 3; i++){
+        cin >> symptom >> temp;
         if(temp >= 37)
         {
             if(symptom == 'Y'){
