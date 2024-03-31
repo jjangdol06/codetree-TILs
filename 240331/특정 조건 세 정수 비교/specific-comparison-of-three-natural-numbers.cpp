@@ -3,17 +3,11 @@ using namespace std;
 
 int main() {
 
-    int a, b, c, min;
+    int a, b, c;
 
     cin >> a >> b >> c;
-
-    min = a;
-    if(min > b)
-        min = b;
-    if(min > c)
-        min = c;
     
-    if(a == min)
+    if(a <= b && a <= c)
         cout << 1 << ' ';
     else 
         cout << 0 << ' ';
