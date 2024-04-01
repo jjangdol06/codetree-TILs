@@ -5,9 +5,11 @@ int main() {
 
     int a, b;
 
-    for(int i = b; i >=a; i -= 2){
+    cin >> a >> b;
+    
+    for(int i = b; i >= a; i -= 2){
         cout << i << ' ';
     }
-    
+
     return 0;
 }
