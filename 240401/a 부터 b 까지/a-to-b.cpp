@@ -12,7 +12,7 @@ int main() {
 
         if(i % 2 == 1)
             i *= 2;
-        else(i % 2 == 0)
+        else
             i += 3;
     }
 
