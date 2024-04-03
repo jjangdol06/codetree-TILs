@@ -7,7 +7,7 @@ int main() {
 
     cin >> n;
 
-    for(int i = 1; i < n; i++){
+    for(int i = 1; i < n + 1; i++){
         if(i % 12 == 0)
             cnt_bathroom++;
         else if(i % 6 == 0)
