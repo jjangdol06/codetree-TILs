@@ -5,8 +5,8 @@ int main() {
 
     int a, sum = 0;
 
-    for (int i = 1; i < a; i++) {
-		if (a % i == 0) {
+    for (int i = 1; i <= a; i++) {
+		if (a % i == 0 && a != i) {
 			sum += i;
 		}
 	}
