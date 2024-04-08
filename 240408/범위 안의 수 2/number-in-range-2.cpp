@@ -3,17 +3,18 @@ using namespace std;
 
 int main() {
 
-    int n, sum = 0;
+    int n, sum = 0, cnt = 0;
     double avg;
 
     for(int i = 0; i < 10; i++){
-        if(i >= 0 && i <= 200){
-            cin >> n;
+        cin >> n;
+        if(n >= 0 && n <= 200){
             sum += n;
+            cnt++;
         }
     }
 
-    avg = sum / 10;
+    avg = sum / cnt;
 
     cout << fixed;
     cout.precision(1);
