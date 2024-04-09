@@ -3,15 +3,15 @@ using namespace std;
 
 int main() {
 
-    int a, b, res = 1;
+    int a, b, prod = 1;
 
     cin >> a >> b;
 
     for(int i = a; i <= b; i++){
-        res *= i;
+        prod *= i;
     }
 
-    cout << res;
-    
+    cout << prod;
+
     return 0;
 }
