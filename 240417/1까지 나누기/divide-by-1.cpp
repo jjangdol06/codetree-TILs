@@ -3,16 +3,15 @@ using namespace std;
 
 int main() {
     
-    int n, temp, cnt = 0;
+    int n, cnt = 0;
 
     cin >> n;
 
-    temp = n;
     for(int i = 1; i <= n; i++){
-        temp /= i;
-        cnt++;
         if(temp <= 1)
             break;
+        n /= i;
+        cnt++;
     }
 
     cout << cnt;
