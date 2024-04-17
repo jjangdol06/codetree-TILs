@@ -11,11 +11,11 @@ int main() {
     for(int i = 1; i <= n; i++){
         temp /= i;
         cnt++;
-        if(temp < 1)
+        if(temp <= 1)
             break;
     }
 
     cout << cnt;
-    
+
     return 0;
 }
