@@ -8,10 +8,10 @@ int main() {
     cin >> n;
 
     for(int i = 1; i <= n; i++){
-        if(n <= 1)
-            break;
         n /= i;
         cnt++;
+        if(n <= 1)
+            break;
     }
 
     cout << cnt;
