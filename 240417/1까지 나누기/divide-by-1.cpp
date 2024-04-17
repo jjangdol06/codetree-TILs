@@ -8,7 +8,7 @@ int main() {
     cin >> n;
 
     for(int i = 1; i <= n; i++){
-        if(temp <= 1)
+        if(n <= 1)
             break;
         n /= i;
         cnt++;
