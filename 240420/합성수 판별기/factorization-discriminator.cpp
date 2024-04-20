@@ -12,7 +12,7 @@ int main() {
             break;
         }
 
-        if(n == i)
+        if(n - 1 == i)
             cout << 'N';
     }
 
