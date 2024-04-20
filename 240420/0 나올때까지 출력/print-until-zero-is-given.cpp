@@ -3,9 +3,8 @@ using namespace std;
 
 int main() {
     
-    int n;
-
-    while(true){
+    while(1){
+        int n;
         cin >> n;
         
         if(n == 0)
@@ -13,6 +12,6 @@ int main() {
 
         cout << n << endl;
     }
-    
+
     return 0;
 }
