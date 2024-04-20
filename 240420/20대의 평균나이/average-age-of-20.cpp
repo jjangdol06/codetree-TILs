@@ -10,7 +10,7 @@ int main() {
         int age;
         cin >> age;
         
-        if(age >= 30){
+        if(age % 10 != 2){
             cout << fixed;
             cout.precision(2);
             cout << sum / cnt;
@@ -20,6 +20,6 @@ int main() {
         sum += age;
         cnt++;
     }
-    
+
     return 0;
 }
