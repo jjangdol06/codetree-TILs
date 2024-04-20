@@ -14,12 +14,12 @@ int main() {
         avg += arr[i];
     }
 
-    avg /= 4;
+    avg /= n;
 
     cout << fixed;
     cout.precision(1);
     cout << avg << endl;
-    
+
     if(avg >= 4.0)
         cout << "Perfect";
     else if(avg >= 3.0)
