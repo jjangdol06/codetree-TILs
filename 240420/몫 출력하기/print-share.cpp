@@ -5,9 +5,7 @@ int main() {
 
     int cnt = 0;
 
-    while(cnt <= 3){
-
-        cnt++;
+    while(cnt < 3){
         int n;
         cin >> n;
 
@@ -15,6 +13,7 @@ int main() {
             continue;
         else{
             cout << n / 2 << endl;
+            cnt++;
         }
     }
     return 0;
